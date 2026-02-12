@@ -229,7 +229,7 @@
             this.buttonSalvar.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.buttonSalvar.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSalvar.ForeColor = System.Drawing.Color.Black;
-            this.buttonSalvar.Location = new System.Drawing.Point(229, 457);
+            this.buttonSalvar.Location = new System.Drawing.Point(216, 387);
             this.buttonSalvar.Margin = new System.Windows.Forms.Padding(2);
             this.buttonSalvar.Name = "buttonSalvar";
             this.buttonSalvar.Size = new System.Drawing.Size(69, 34);
