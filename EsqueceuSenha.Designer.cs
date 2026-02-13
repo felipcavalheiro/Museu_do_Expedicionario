@@ -48,7 +48,7 @@
             // 
             // btnFechar
             // 
-            this.btnFechar.Location = new System.Drawing.Point(251, 468);
+            this.btnFechar.Location = new System.Drawing.Point(288, 613);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(64, 25);
             this.btnFechar.TabIndex = 8;
@@ -59,7 +59,7 @@
             // Email
             // 
             this.Email.AutoSize = true;
-            this.Email.Location = new System.Drawing.Point(21, 80);
+            this.Email.Location = new System.Drawing.Point(19, 114);
             this.Email.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Email.Name = "Email";
             this.Email.Size = new System.Drawing.Size(84, 13);
@@ -87,7 +87,7 @@
             // 
             // textboxemailEsqueceu
             // 
-            this.textboxemailEsqueceu.Location = new System.Drawing.Point(139, 77);
+            this.textboxemailEsqueceu.Location = new System.Drawing.Point(139, 111);
             this.textboxemailEsqueceu.Margin = new System.Windows.Forms.Padding(2);
             this.textboxemailEsqueceu.Name = "textboxemailEsqueceu";
             this.textboxemailEsqueceu.Size = new System.Drawing.Size(163, 20);
@@ -96,7 +96,7 @@
             // 
             // btnEsqueceu
             // 
-            this.btnEsqueceu.Location = new System.Drawing.Point(186, 118);
+            this.btnEsqueceu.Location = new System.Drawing.Point(186, 156);
             this.btnEsqueceu.Name = "btnEsqueceu";
             this.btnEsqueceu.Size = new System.Drawing.Size(75, 23);
             this.btnEsqueceu.TabIndex = 13;
@@ -107,7 +107,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(21, 207);
+            this.label3.Location = new System.Drawing.Point(19, 238);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(114, 13);
@@ -116,7 +116,7 @@
             // 
             // textBoxVerificacao
             // 
-            this.textBoxVerificacao.Location = new System.Drawing.Point(152, 204);
+            this.textBoxVerificacao.Location = new System.Drawing.Point(139, 235);
             this.textBoxVerificacao.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxVerificacao.Name = "textBoxVerificacao";
             this.textBoxVerificacao.Size = new System.Drawing.Size(163, 20);
@@ -125,7 +125,7 @@
             // 
             // btnVerificacao
             // 
-            this.btnVerificacao.Location = new System.Drawing.Point(186, 246);
+            this.btnVerificacao.Location = new System.Drawing.Point(186, 285);
             this.btnVerificacao.Name = "btnVerificacao";
             this.btnVerificacao.Size = new System.Drawing.Size(75, 23);
             this.btnVerificacao.TabIndex = 16;
@@ -143,25 +143,25 @@
             this.panel1.Controls.Add(this.textBoxVerificacao);
             this.panel1.Controls.Add(this.btnEsqueceu);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(506, 0);
+            this.panel1.Location = new System.Drawing.Point(848, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(327, 505);
+            this.panel1.Size = new System.Drawing.Size(364, 650);
             this.panel1.TabIndex = 17;
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Location = new System.Drawing.Point(1, 2);
+            this.panel2.Location = new System.Drawing.Point(-7, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(499, 503);
+            this.panel2.Size = new System.Drawing.Size(869, 686);
             this.panel2.TabIndex = 18;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Museu_do_Expedicionário.Properties.Resources.Fundo_5;
-            this.pictureBox1.Location = new System.Drawing.Point(0, -5);
+            this.pictureBox1.Image = global::Museu_do_Expedicionário.Properties.Resources.frente;
+            this.pictureBox1.Location = new System.Drawing.Point(0, -156);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(821, 557);
+            this.pictureBox1.Size = new System.Drawing.Size(1017, 962);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -170,7 +170,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(833, 505);
+            this.ClientSize = new System.Drawing.Size(1212, 650);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);

@@ -50,7 +50,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(32, 70);
+            this.label1.Location = new System.Drawing.Point(62, 115);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(86, 13);
             this.label1.TabIndex = 0;
@@ -60,7 +60,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(32, 134);
+            this.label2.Location = new System.Drawing.Point(62, 181);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(86, 13);
             this.label2.TabIndex = 1;
@@ -69,7 +69,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(32, 173);
+            this.label3.Location = new System.Drawing.Point(62, 220);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(103, 13);
             this.label3.TabIndex = 2;
@@ -77,7 +77,7 @@
             // 
             // novoNome
             // 
-            this.novoNome.Location = new System.Drawing.Point(143, 67);
+            this.novoNome.Location = new System.Drawing.Point(202, 112);
             this.novoNome.Name = "novoNome";
             this.novoNome.Size = new System.Drawing.Size(128, 20);
             this.novoNome.TabIndex = 3;
@@ -85,7 +85,7 @@
             // 
             // novaSenha
             // 
-            this.novaSenha.Location = new System.Drawing.Point(143, 131);
+            this.novaSenha.Location = new System.Drawing.Point(202, 178);
             this.novaSenha.Name = "novaSenha";
             this.novaSenha.PasswordChar = '*';
             this.novaSenha.Size = new System.Drawing.Size(128, 20);
@@ -94,7 +94,7 @@
             // 
             // novaSenhaConfirm
             // 
-            this.novaSenhaConfirm.Location = new System.Drawing.Point(143, 170);
+            this.novaSenhaConfirm.Location = new System.Drawing.Point(202, 217);
             this.novaSenhaConfirm.Name = "novaSenhaConfirm";
             this.novaSenhaConfirm.PasswordChar = '*';
             this.novaSenhaConfirm.Size = new System.Drawing.Size(128, 20);
@@ -103,7 +103,7 @@
             // 
             // btnContinuar
             // 
-            this.btnContinuar.Location = new System.Drawing.Point(103, 239);
+            this.btnContinuar.Location = new System.Drawing.Point(164, 278);
             this.btnContinuar.Name = "btnContinuar";
             this.btnContinuar.Size = new System.Drawing.Size(75, 23);
             this.btnContinuar.TabIndex = 6;
@@ -113,7 +113,7 @@
             // 
             // btnFechar
             // 
-            this.btnFechar.Location = new System.Drawing.Point(226, 484);
+            this.btnFechar.Location = new System.Drawing.Point(320, 615);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(64, 25);
             this.btnFechar.TabIndex = 7;
@@ -124,7 +124,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(32, 101);
+            this.label4.Location = new System.Drawing.Point(62, 145);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(84, 13);
             this.label4.TabIndex = 8;
@@ -132,7 +132,7 @@
             // 
             // emailNovo
             // 
-            this.emailNovo.Location = new System.Drawing.Point(143, 98);
+            this.emailNovo.Location = new System.Drawing.Point(202, 142);
             this.emailNovo.Name = "emailNovo";
             this.emailNovo.Size = new System.Drawing.Size(128, 20);
             this.emailNovo.TabIndex = 9;
@@ -151,9 +151,9 @@
             this.panel1.Controls.Add(this.novaSenha);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(561, 0);
+            this.panel1.Location = new System.Drawing.Point(785, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(325, 519);
+            this.panel1.Size = new System.Drawing.Size(396, 652);
             this.panel1.TabIndex = 10;
             // 
             // panel2
@@ -161,16 +161,16 @@
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(562, 509);
+            this.panel2.Size = new System.Drawing.Size(786, 661);
             this.panel2.TabIndex = 11;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Museu_do_Expedicionário.Properties.Resources.Fundo_5;
-            this.pictureBox1.Location = new System.Drawing.Point(0, -31);
+            this.pictureBox1.Image = global::Museu_do_Expedicionário.Properties.Resources.frente;
+            this.pictureBox1.Location = new System.Drawing.Point(-95, -39);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(970, 685);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.Size = new System.Drawing.Size(881, 691);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -179,7 +179,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(886, 519);
+            this.ClientSize = new System.Drawing.Size(1181, 652);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;

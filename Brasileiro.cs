@@ -199,7 +199,7 @@ namespace Museu_do_Expedicionário
 
         private void buttonSalvar_Click_1(object sender, EventArgs e)
         {
-            // ✅ NOVO: Prevenir dupla execução
+            
             if (_estaSalvando)
                 return;
 

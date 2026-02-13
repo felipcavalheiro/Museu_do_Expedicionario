@@ -19,7 +19,7 @@ namespace Museu_do_Expedicionário
         public EsqueceuSenha()
         {
             InitializeComponent();
-            //this.ClientSize = new Size(560, 350);
+            //this.ClientSize = new Size(985, 560);
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.StartPosition = FormStartPosition.CenterScreen;
